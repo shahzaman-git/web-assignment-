@@ -1,0 +1,165 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #003366;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    align-items: center;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #e6f0ff, #ffffff);
+    padding: 50px;
+}
+
+.hero-text h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.hero-text button {
+    padding: 10px 20px;
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.hero-image img {
+    width: 200px;
+}
+
+/* Mission Section */
+.mission {
+    text-align: center;
+    background-color: #003366; /* Dark Blue Background */
+    color: white;
+    padding: 40px 30px;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #f9f9f9;
+    padding: 30px;
+}
+
+.features div {
+    background: #b0e0e6; /* Powder Blue */
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Products Section */
+.carousel {
+    text-align: center;
+    background-color: #87ceeb; /* Sky Blue */
+    padding: 40px;
+}
+
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product {
+    text-align: center;
+    flex: 1;
+}
+
+.product img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.product p {
+    margin-top: 10px;
+}
+
+/* Testimonial Section */
+.testimonial {
+    background-color: #003366; /* Dark Blue Background */
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.testimonial blockquote {
+    font-style: italic;
+    font-size: 18px;
+    color: white; /* White color for the quotation */
+}
+
+/* Contact Section */
+.contact {
+    text-align: center;
+    padding: 40px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: auto;
+}
+
+.contact input, .contact textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact button {
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Centering Our Products Heading */
+.center-text {
+    text-align: center;
+    margin-bottom: 20px;
+}
